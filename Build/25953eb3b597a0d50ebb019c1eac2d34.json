@@ -1,0 +1,16 @@
+{
+"companyName": "TUM",
+"productName": "ModularRobotAR",
+"productVersion": "0.1",
+"dataUrl": "99c285509c298d138c688cb5657bd4d7.unityweb",
+"wasmCodeUrl": "70af292a1416d61c72c486847f767173.unityweb",
+"wasmFrameworkUrl": "aa0de5fc02ddda881a8ccfdb8c6f57ab.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.17f1"
+}
