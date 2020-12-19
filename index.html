@@ -4,12 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | ModularRobotAR</title>
-    <script src="Build/9b952195ab79ef94f0feaae8cbb8d8ac.js"></script>
-    <script>
-      UnityLoader.instantiate("unityContainer", "Build/25953eb3b597a0d50ebb019c1eac2d34.json");
-    </script>
   </head>
-  <body>
-    <div id="unityContainer" style="width: 960px; height: 600px; margin: auto"></div>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" style="width: 960px; height: 600px; background: #231F20"></canvas>
+    <script src="Build/c4c07f153778d8abf1842ac44b3ff052.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/97a0c4f2742406103a6a4e9988850463.data.gz",
+        frameworkUrl: "Build/7329b21912d411f53fc9cae52baa067a.js.gz",
+        codeUrl: "Build/b827677e18de644e5b1d57466d75cf03.wasm.gz",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "TUM",
+        productName: "ModularRobotAR",
+        productVersion: "0.1",
+      });
+    </script>
   </body>
 </html>
